@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Movies</title>
+</head>
+<body>
+    <div id="header">
+        <ul>
+            <li class="right_border"><a href="index.html">Мои фильмы</a></li>
+            <li class="right_border"><a href="film_by_name.html">Фильм по названию</a></li>
+            <li><a href="films_by_name.html">Фильмы по части названия</a></li>
+        </ul>
+    </div>
+    <div id="main_find">
+        <h2>Найти фильм</h2>
+        <div class="choose_item">
+            <label>Введите название</label>
+            <input type="text">
+        </div>
+        <div class="choose_item">
+            <label>Введите год выпуска</label>
+            <input type="number">
+        </div>
+        <div class="choose_item">
+            <label>Введите номер страницы</label>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <button>Найти</button>
+    </div>
+    <div id="results">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

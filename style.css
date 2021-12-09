@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+    min-width: 980px;
+}
+
+#header {
+    background: fixed url("img/header_bg.png") no-repeat;
+    background-size: 100% 150px;
+    height: 150px;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    /* background-color: rgba(139, 27, 190, 0.212); */
+    background-color: rgba(253, 174, 4, 0.753);
+    height: 40px;
+    width: 70%;
+    bottom: 0;
+    position: absolute;
+    margin: 0 15%;
+    padding: 0;
+    border: rgb(255, 208, 0) solid;
+    border-width: 1px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    width: 33.23%;
+    height: 40px;
+}
+
+li.right_border {
+    border-right: rgb(255, 208, 0) solid;
+    border-right-width: 1px;
+}
+
+li a {
+    display:block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    /* color: white; */
+    color: rgb(7, 0, 71);
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: rgb(139, 95, 0);
+    /* rgba(216, 216, 216, 0.87); */
+    color: blue;
+}
+
+#main {
+    border: rgb(79, 78, 85) solid;
+    border-radius: 30px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 900px;
+    height: 450px;
+}
+
+#main_find {
+    border: rgb(79, 78, 85) solid;
+    border-radius: 30px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 500px;
+    height: 310px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 40px;
+}
+
+img {
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 210px;
+    height: 310px;
+}
+
+.choose_item label {
+    width: 230px;
+    display:inline-block;
+    margin: 15px 27px;
+    font-weight: bold;
+    color: rgb(17, 0, 49);
+    font-size: 18px;
+}
+
+.choose_item input {
+    border: rgb(139, 0, 0) double;
+    height: 20px;
+}
+
+.choose_item select {
+    border: rgb(139, 0, 0) double;
+}
+
+#main_find button {
+    margin: 10px 200px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(183, 208, 255);
+}
+
+#results {
+    width: 900px;
+    border-top: rgba(253, 174, 4, 0.753) dashed;
+    margin: auto;
+}
+
+.film {
+    border: rgb(79, 78, 85) solid;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 900px;
+    height: 450px;
+}
+
+p {
+    margin-left: 350px;
+}
